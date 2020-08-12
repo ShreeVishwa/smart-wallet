@@ -5,14 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { Ionicons } from '@expo/vector-icons'
 
 import HomeScreen from './components/HomeScreen'
-
-function CardScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Cards!</Text>
-    </View>
-  )
-}
+import CardScreen from './components/CardScreen'
 
 function ProfileScreen() {
   return (
