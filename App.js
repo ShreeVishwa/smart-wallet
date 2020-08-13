@@ -7,14 +7,7 @@ import { Ionicons } from '@expo/vector-icons'
 import HomeScreen from './components/HomeScreen'
 import CardScreen from './components/CardScreen'
 import ProfileScreen from './components/ProfileScreen'
-
-function StatsScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Stats!</Text>
-    </View>
-  )
-}
+import StatsScreen from './components/StatsScreen'
 
 const Tab = createBottomTabNavigator()
 
