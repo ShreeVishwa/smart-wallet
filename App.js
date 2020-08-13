@@ -6,14 +6,7 @@ import { Ionicons } from '@expo/vector-icons'
 
 import HomeScreen from './components/HomeScreen'
 import CardScreen from './components/CardScreen'
-
-function ProfileScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Profiles!</Text>
-    </View>
-  )
-}
+import ProfileScreen from './components/ProfileScreen'
 
 function StatsScreen() {
   return (
